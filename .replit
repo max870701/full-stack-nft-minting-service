@@ -2,5 +2,9 @@ run="npm run dev"
 entrypoint="src/App.jsx"
 
 [[ports]]
+localPort = 4173
+externalPort = 3000
+
+[[ports]]
 localPort = 5173
 externalPort = 80
